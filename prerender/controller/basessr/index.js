@@ -3,7 +3,6 @@ async function basessr(req, res) {
 
   const data = await resData?.json();
   console.log("data", data.name);
-  //   res.render("html", { title: "hello ssr", message: "Hello there!" });
 
   const html = `
    <html>
