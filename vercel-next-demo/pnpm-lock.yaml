@@ -44,6 +44,9 @@ importers:
       react-dom:
         specifier: 18.3.1
         version: 18.3.1(react@18.3.1)
+      react-live-chat-loader:
+        specifier: ^2.9.1
+        version: 2.9.1(react@18.3.1)
     devDependencies:
       '@babel/preset-react':
         specifier: ^7.24.7
@@ -1511,6 +1514,11 @@ packages:
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+
+  react-live-chat-loader@2.9.1:
+    resolution: {integrity: sha512-SSP7t+qpk9mu/uPkbU7K53XH6v66Do4y+gwORkBvJw4SHktewQ2IKubDvuiMti/2SRfZBi0Q5gcGRNIICOwvzg==}
+    peerDependencies:
+      react: ^16.14.0 || ^17.0.0 || ^18.0.0
 
   react@18.3.1:
     resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
@@ -3425,6 +3433,10 @@ snapshots:
   react-fast-compare@3.2.2: {}
 
   react-is@16.13.1: {}
+
+  react-live-chat-loader@2.9.1(react@18.3.1):
+    dependencies:
+      react: 18.3.1
 
   react@18.3.1:
     dependencies:

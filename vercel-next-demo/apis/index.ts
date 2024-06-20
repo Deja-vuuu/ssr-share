@@ -17,7 +17,8 @@ const getPoke = async (id: any) => {
 const getPageData = async (id: any): Promise<any> => {
   const poke = await getPoke(id)
   return {
-    ...poke,
+    name: poke?.name,
+    front_default: poke?.sprites?.other?.["official-artwork"]?.front_default,
     datetime: new Date().getTime()
   }
 }
