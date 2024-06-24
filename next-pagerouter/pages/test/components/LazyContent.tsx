@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Content from '@/components/Content';
 import { useAsyncEffect } from 'ahooks';
 import { getPageData } from 'apis';
-import { log } from 'console';
 
 export default function LazyContent() {
     const [pageData, setPageData] = useState<any>();

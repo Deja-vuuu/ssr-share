@@ -1,5 +1,4 @@
 import * as React from 'react';
-import dayjs from 'dayjs';
 
 import useCurrentTime from '@/hooks/useCurrentTime';
 import Image from 'next/image';
